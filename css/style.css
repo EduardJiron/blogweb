@@ -1,0 +1,98 @@
+
+.webpageMenu{
+    
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    
+    
+    }
+    
+  
+    
+    .webpageMenu a:hover{
+    
+    color: #ffffff;
+    background-color: #2c2c2c;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px;
+   
+   
+    }
+    
+    .webpageMenu a:active{
+    
+    color: #000000;
+    background-color: #3c3b3b;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    }
+    
+
+    
+    .webpageMenu a:link{
+    
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px;
+   
+    }
+    
+
+
+.webpageMenu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.webpageMenu li{
+    display: inline-block;
+    position: relative;
+}
+
+.webpageMenu li a{
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:white;
+}
+.webpageMenu li ul{
+    position: absolute;
+    top: 100%;
+    display: none;
+   
+}
+
+
+.webpageMenu li:hover ul {
+    display: block;
+    background-color: #000000;  
+   
+    
+}
+
+
+
+  
+
