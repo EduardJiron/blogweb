@@ -79,6 +79,12 @@ body{
     
     }
     
+    .Secciones{
+        position: relative;
+        bottom: -600px;
+        right: 300px;
+    }
+    
     
     
     .entradaContendor2{
@@ -86,7 +92,7 @@ body{
         position:relative;
         margin-bottom:1.25rem;
         width: 200px;
-        top: 0px;
+        top:px;
         left: 0px;
         
     }
@@ -96,7 +102,8 @@ body{
         line-height: 1.25;
     }
 .fecha {
-  color: #ffffff;
+  color: #000000;
+  font-size: 12px;
 }
 
     .AutoresEntrada{
@@ -106,12 +113,13 @@ body{
     }
     .nombre{
         display: inline-block;
+        color: #000;
     }
     .lectura{
         border: 5px solid #ffffff;
         color: #ffffff;
     }	
- 
+
     
     
 
@@ -138,7 +146,8 @@ body{
         background-color:#fcfcee;border:1px solid #292138;
         width:300px;
         border-radius:.25rem;
-        top: 60px;
+        top: -60px;
+        right: -40px;
 
     }
         .borderEntrada2{position:relative;
@@ -151,7 +160,7 @@ body{
             background-color:#fcfcee;border:1px solid #292138;
             width: 300px;
             border-radius:.25rem;
-            top: -430px;
+            top: -500px;
             
             left: 350px;
         }
@@ -166,8 +175,8 @@ body{
             width: 300px;
             height: 500px;
             border-radius:.25rem;
-            top: 100px;
-            right: 710px; ;
+            top: -576px;
+            right: -500px; ;
         }
         .borderEntrada5{position:relative;
             display:-webkit-box;
@@ -179,8 +188,23 @@ body{
             background-color:#fcfcee;border:1px solid #292138;
             width: 300px;
             border-radius:.25rem;
-            top: -497px;
-            left:330px ;
+            top: 30px;
+            left:-900px ;
+            height: 540px;
+        }
+        .borderEntrada9{position:relative;
+            display:-webkit-box;
+            display:-webkit-flex;
+            display:-ms-flexbox;
+            display:flex;
+            
+            flex-direction:column;
+            background-color:#fcfcee;border:1px solid #292138;
+            width: 300px;
+            border-radius:.25rem;
+            top: -420px;
+            left:350px ;
+            height: 450px;
         }
         h4{
             justify-content: center;
@@ -192,8 +216,8 @@ body{
             margin-bottom:-1px;
             font-size:1.3rem;
             position: relative;
-            bottom: -70px;
-            right: -40px;
+            bottom: -90px;
+            right: -60px;
         }
      
         .Secciones{
@@ -204,6 +228,7 @@ body{
         .entradas{
           position: relative;
           right: -40px;
+          height: 20px;
         }
         .entradas2{
             position: relative;
@@ -278,16 +303,6 @@ body{
    
     /*#cccccc
     #292138*/
-}
-.footer {
-    background-color:#cccccc;
-    font-style: normal;
-  
-	padding-top:15px;
-	padding-bottom:12px;
-	font-size:0.8rem;
-	color:#292138;
-	margin-top:50px;
 }
 
 #final{
