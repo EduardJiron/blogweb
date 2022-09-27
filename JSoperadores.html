@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>JavaScript Jquery</title>
+</head>
+<body>
+    <header> 
+    <nav class="webpageTop">
+
+        <div class="webpageLoge">
+
+        </div>
+
+        
+        <div class="webpageMenu">
+
+           
+            <ul>
+                <li ><a class="inicio" href="index.html">Inicio</a>
+                
+                
+                </li>
+                <li><a href="/">JavaScript</a>
+                    <ul>
+                        <li><a href="/sintaxisJS.html">Sintaxis</a></li>
+                        <li><a href="/ejerciciosJS.html">ejercicios</a></li>
+                    </ul>
+                </li>
+                <li ><a href="index.html">Jquery</a>
+                    <ul>
+                        <li><a href="/sintaxisJQ.html">Sintaxis</a></li>
+                        <li><a href="/ejerciosJQ.html">ejercicios</a></li>
+                    </ul>
+                </li>
+                <li ><a href="/Acerca.html">Acerca de</a>
+                    <ul>
+                        <li><a href="/Acerca.html">Fotos integrantes</a></li>
+                        <li><a href="/Acerca.html">Clase</a></li>
+                    </ul>
+                </li>
+            
+            
+            </ul>
+
+        </div>
+    </nav>
+    <div class="title">
+
+        <h1>Sintaxis JavaScript</h1>
+    </div>
+</header>
+
+<div class="title">
+    <dl>
+       <h3>Operadores aritméticos</h3>
+       <p>Al igual que en los otros lenguajes de programación, los operadores aritméticos son aquellos que operan sobre los valores numéricos y devuelven un valor numérico. </p>
+       <dd> <strong> + (Adición)</strong>
+        <p>Encargado de sumar dos variables. Sin embargo a veces puede usarse para concatenar, es decir unir "cadenas".  <br>
+            
+           <strong>Ejemplo de adición:</strong> <br>
+            Y = 12 + 12 da Y = 24 <br>
+
+            <strong>Ejemplo de concatenación:</strong> <br>
+            Y = "Geraldine" + "Porras" da Y = "Geraldine Porras"
+            
+        </p>
+       </dd>
+
+       <dd> <strong> - (Resta)</strong>
+        <p>Realiza una resta de variables. <br>            
+        <strong>Ejemplo de resta:</strong> <br>
+            Y = 12 - 12 da Y = 0 <br>
+ 
+         
+             
+         </p>
+       </dd>
+
+       <dd> <strong> * (Multiplicación)</strong>
+        <p>Mutiplica dos variables. <br>                
+        <strong>Ejemplo de mutiplicación:</strong> <br>
+                 Y = 12 * 12 da Y = 144 <br>
+     
+             
+                 
+             </p>
+
+
+       </dd>
+
+       <dd> <strong> / (División)</strong>
+        <p>Divide dos variables. <br> 
+         La primera variable se utiliza como numerador y la otra como denominador. <br>                 
+            <strong>Ejemplo de división:</strong> <br>
+             <strong>6</strong> = Numerador <br>
+             <strong>3</strong> = Denominador <br>
+             Y = 6 / 3 da Y = <strong>2</strong><br>
+         
+                 
+                     
+                 </p>
+
+
+
+
+
+       </dd>
+
+       <dd> <strong> % (Módulo)</strong>
+        <p>Encargado de dar el resto de una división  entera. <br>                
+            <strong>Ejemplo de módulo:</strong> <br>
+            A % B significa resto (A/B) <br>
+            Y = 5 % 4 da Y = 1 <br>
+         
+                 
+                     
+                 </p>
+       </dd> 
+
+       <dd> <strong> ++ (Incremento)</strong>
+        <p>Aumenta un valor entero en uno.<br>                
+            <strong>Ejemplo de incremento:</strong> <br>
+            sea ​​A = 10 y Y = A + + entonces A = 11, Y=10 <br>
+            si A = 10 y Y = + + A entonces A = 11, Y=11 <br>
+         
+                 
+                     
+                 </p>
+       </dd> 
+
+       <dd> <strong> -- (Decremento)</strong>
+        <p>Decrece un valor entero en uno.<br>                
+            <strong>Ejemplo de decremento:</strong> <br>
+            sea ​​A = 10 y Y = A - - entonces A = 9, Y=10 <br>
+            si A = 10 y Y = - - A entonces A = 9, Y=9 <br>
+         
+                 
+                     
+                 </p>
+       </dd> 
+
+       <h3>Operadores de asignación</h3>
+       <dd>
+        <p>
+            Los operadores de asignación son aquellos que permiten asignar un valor a una variable.<br>
+            Estos al igual que los aritméticos llevan nombre de:<br>
+            Suma<br>
+            Resta<br>
+            Mutiplicación<br>
+            División<br>
+            Restante<br>
+            Sin embargo, los operadores de asignación o "taquigráficos" son muchos más.<br>
+
+            A continuación, explicaré brevemente para que sirve cada uno de los otros, junto a un pequeño ejemplo.<br>
+
+            <dd> <strong> Exponenciación</strong>
+            <p>
+                Eleva el valor de una variable a la potencia de la variable al lado derecho.<br>
+                <strong>Ejemplo de exponenciación:</strong> <br>
+                    let yoo=2; <br>
+                    const moo=2; <br>
+                    
+                    //Eleva la potencia al cuadrado <br>
+                    document.write(yoo**moo); <br>  
+
+
+            </p>
+
+
+            <dd> <strong> Asignación AND binaria</strong>
+                <p>
+                    Utiliza la representación binaria de ambos operandos.<br>
+                    Realiza una operación AND bit a bit sobre ellos y asigna el resultado a la variable.<br>
+                    <strong>Ejemplo de asignación:</strong> <br>
+                    var yoo=5;<br>
+  
+                    document.write(yoo&=2);<br>
+    
+                </p>
+
+
+            <dd> <strong> Asignación OR binaria</strong>
+                    <p>
+                        Utiliza la representación binaria de ambos operandos.<br>
+                        Realiza una operación AND bit a bit sobre ellos y asigna el resultado a la variable.<br>
+                        <strong>Ejemplo de asignación OR:</strong> <br>
+                        var yoo=5; <br>
+                        document.write(yoo|=2);<br>
+        
+                    </p>
+                
+                
+                
+        </p>
+
+
+
+
+         <h3>Operadores de comparación</h3>
+
+       <dd>
+        <p>
+        Los operadores de comparación se utilizan en expresiones lógicas para determinar su igualdad o diferencias en variables o valores. <br>
+        En JavaScript existen de igualdad o relacionales:<br>
+        Primeramente explicaré los de igualdad, que son los más conocidos.<br>
+
+         <h3>Operadores de igualdad:</h3>
+
+        <dd> <strong> Igualdad (==)</strong>
+        <p>
+            Compara la igualdad de dos operandos. Si es igual, la condición es verdadera. De lo contrario, sería falsa.<br>
+            <strong>Ejemplo de sintaxis:</strong> <br>
+                 x == y <br>
+        </p>
+
+        <dd> <strong> Desigualdad (!=)</strong>
+            <p>
+                A diferencia del otro, compara la desigualdad de dos operandos. Si es igual, la condición es verdadera. De lo contrario, sería falsa.<br>
+                <strong>Ejemplo de sintaxis:</strong> <br>
+                  x != y<br>
+            </p>
+
+            <dd> <strong> Igualdad estricta (===)</strong>
+                <p>
+                    Podría decirse que es la igualdad, mejorada de JavaScript. Debido a que no sólo compara valores, sino tipo de variable.<br>
+                    <strong>Ejemplo de sintaxis:</strong> <br>
+                    x === y<br>
+                </p>
+
+
+
+            <dd> <strong> Estricto en igualdad (!==)</strong>
+                    <p>
+                       Es una igualdad que evalua o compara la desigualdad de dos operandos con el tipo.<br>
+                        <strong>Ejemplo de sintaxis:</strong> <br>
+                        x !== y<br>
+                    </p>
+
+        
+           <h3>Operadores relacionales:</h3>
+
+           <dd> <strong> Mayor que (>)</strong>
+            <p>
+                Verifica si el valor del lado izquierdo es mayor que el valor del lado derecho. <br>
+                Si el valor es mayor, la condición es verdadera, de lo contrario, falsa.<br>
+                <strong>Ejemplo de sintaxis:</strong> <br>
+                x > y <br>
+            </p>
+
+
+            <dd> <strong> Mayor o igual que (>=)</strong>
+                <p>
+                    Verifica si el valor del lado izquierdo es mayor que el valor del lado derecho. <br>
+                    La diferencia entre el anterior operador y este, es que si se compara un numero, se incluye el valor del lado izquierdo.<br>
+                    <strong>Ejemplo de sintaxis:</strong> <br>
+                   x >= y <br>
+                   Por ejemplo si x fuera 10 y la y 5, el 10 se toma en cuenta a si mismo<br>
+                </p>
+
+            <dd> <strong> Menor que (<)</strong>
+                    <p>
+                        verificar si el valor del lado izquierdo es menor que el valor del lado derecho. <br>
+                        En caso de que se cumpla la condición, es verdadera, de lo contrario, falsa. <br>
+                        <strong>Ejemplo de sintaxis:</strong> <br>
+                       x < y <br>                       
+                    </p>
+
+
+            <dd> <strong> Menor o igual que (<=)</strong>
+                Verifica si el valor del lado izquierdo es menor que el valor del lado derecho. <br>
+                La diferencia entre el anterior operador y este, es que si se compara un numero, se incluye el valor del lado izquierdo.<br>
+                <strong>Ejemplo de sintaxis:</strong> <br>
+               x <= y <br>
+               Por ejemplo si x fuera 24 y la y 12, el 24 se toma en cuenta a si mismo<br>
+            </p>
+    
+
+            
+
+
+
+
+
+
+
+
+    
+
+
+        
+    
+
+
+            
+
+
+
+
+        </p>
+
+
+
+
+
+       </dd>
+
+
+    </dl>
+
+
+
+
+</div>
+
+
+</body>
+</html>
+
+
