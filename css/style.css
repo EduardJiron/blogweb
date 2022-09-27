@@ -178,6 +178,20 @@ body{
             top: -576px;
             right: -500px; ;
         }
+        .borderEntrada10{position:relative;
+            display:-webkit-box;
+            display:-webkit-flex;
+            display:-ms-flexbox;
+            display:flex;
+            
+            flex-direction:column;
+            background-color:#fcfcee;border:1px solid #292138;
+            width: 300px;
+            height: 500px;
+            border-radius:.25rem;
+            top: 150px;
+            right: 900px;
+        }
         .borderEntrada5{position:relative;
             display:-webkit-box;
             display:-webkit-flex;
