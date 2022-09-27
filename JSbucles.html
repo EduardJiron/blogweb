@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>JavaScript Jquery</title>
+</head>
+<body>
+    <header> 
+    <nav class="webpageTop">
+
+        <div class="webpageLoge">
+
+        </div>
+
+        
+        <div class="webpageMenu">
+
+           
+            <ul>
+                <li ><a class="inicio" href="index.html">Inicio</a>
+                
+                
+                </li>
+                <li><a href="/">JavaScript</a>
+                    <ul>
+                        <li><a href="/sintaxisJS.html">Sintaxis</a></li>
+                        <li><a href="/ejerciciosJS.html">ejercicios</a></li>
+                    </ul>
+                </li>
+                <li ><a href="index.html">Jquery</a>
+                    <ul>
+                        <li><a href="/sintaxisJQ.html">Sintaxis</a></li>
+                        <li><a href="/ejerciosJQ.html">ejercicios</a></li>
+                    </ul>
+                </li>
+                <li ><a href="/Acerca.html">Acerca de</a>
+                    <ul>
+                        <li><a href="/Acerca.html">Fotos integrantes</a></li>
+                        <li><a href="/Acerca.html">Clase</a></li>
+                    </ul>
+                </li>
+            
+            
+            </ul>
+
+        </div>
+    </nav>
+    <div class="title">
+
+        <h1>Sintaxis JavaScript</h1>
+    </div>
+</header>
+
+
+<div class="title">
+ 
+    <dl>
+
+        
+
+        <h3>Bucle For</h3>
+        <p>El bucle "for" es una forma de ejecutar instrucciones varias veces, sin necesidad de escribir varias líneas de código.<br>
+           La sintaxis de los for en JavaScript varía un poco en comparación a los otros lenguajes, donde el for es más simple<br>
+        </p>
+        <dd> <strong> Sintaxis</strong>
+        <p>
+            for ([expresion-inicial]; [condicion]; [expresion-final])sentencia <br>          
+        </p>         
+        </dd>
+
+        <dd> <strong> Explicación de cada una de las sentencias en un for:</strong>
+            <p>
+                <dd> <strong> Expresión inicial</strong><br>
+                Por lo general, el resultado de esta expresión es descartado.<br>
+                En esta expresión suele declararse el contador u alguna otra variable. <br>
+
+                <dd> <strong> Condición</strong><br>
+                Una expresión para ser evaluada antes de cada iteración del bucle. <br>
+                Si esta expresión se evalúa como verdadera, se ejecuta sentencia. <br>
+                Esta comprobación condicional es opcional. Si se omite, la condición siempre se evalúa como verdadera. <br>
+                En caso que la expresión se evalúa como falsa, la ejecución salta a la primera expresión que sigue al constructor de for. <br>
+
+                <dd> <strong> Expresión final</strong><br>
+                Una expresión para ser evaluada al final de cada iteración del bucle. <br>
+                Se utiliza para actualizar o incrementar la variable contador. <br>
+
+                <dd> <strong> Expresión sentencia</strong><br>
+                    Una sentencia que se ejecuta mientras la condición se evalúa como verdadera. <br>
+                    Para ejecutar múltiples sentencias dentro del bucle, utilice una sentencia block ({ ... }) para agrupar aquellas sentecias.<br>
+
+                <dd> <strong> Ejemplo de sintaxis</strong><br>    
+                    for (var i = 0; i < 9; i++) { <br>
+                        n += i;<br>
+                        mifuncion(n); <br>
+                     }   <br>
+
+                
+            </p>
+            
+
+        </dd>
+
+
+        <h3>Buble While</h3>
+
+        <dd>
+        <p>El bucle "while" no es ni más ni menos que ejecutar una sentencia cuando se cumpla una condición<br>
+            Se encarga de que un bloque de código específico se repita varias veces hasta que no cumpla la condición.<br>        
+            Existen dos tipos de bucles: Aquellos controlados de entrada y los de salida<br>          
+        </p>
+        <dd>Entrada:</dd>
+        <ul>
+            <li>  For  </li>
+           <li>While</li> 
+
+        </ul>
+
+
+        <dd>Salida:</dd>
+        <ul>
+            <li>  do - while  </li>
+        </ul>
+        </dd>
+
+        <dd> <strong> Ejemplo de bucle while</strong> <br>
+            var print = ""; <br>
+            var val = 1; <br>
+            while(val < 6) { <br>
+                print += "Geraldine " + val; <br>
+                print += "<br>" 
+                val += 1; <br>
+            } <br>
+
+   </dl>
+
+
+   <h3>Bucle do - while</h3>
+   <dd>
+    Consiste en una declaración de flujo de control que ejecuta un bloque de código al menos una vez y luego ejecuta repetidamente el bloque o no.<br>
+    
+    <dd> <strong> Sintaxis</strong><br>
+        hacer { <br>
+            // Declaraciones <br>
+        } <br>
+        mientras (condición); <br>
+
+    <dd> <strong> Ejemplo</strong><br>
+        var print = "" <br>
+        var val = 0;
+    do { <br>
+        print += "Geraldine " + val; <br>
+        print += "<br>";
+        val += 1; <br>
+    }
+    while (val < 6); <br>    
+   </dd>
+
+   <h3>¿Cuándo debes implementar while o do - while?</h3>
+   <dd>
+    <p>La programación es muy parecida a lo que decimos en el día a día, por ejemplo. El while y do-while son instrucciones que <br>
+        pueden ser diferenciadas por dos simples razones. <br>
+        Recuerda cada vez que quieras implementar un while,la oración "pienso, luego actúo". De hecho, así es como funciona un while <br>
+        debido a que comprobará primero la condición antes de ejecutar el contenido. <br>
+
+        El do-while, es igual a lo que haría una persona que primero "actua y luego piensa". <br>
+        Este se encarga de ejecutar el contenido del ciclo una vez antes de verificar la condición de este. <br>
+
+        El número de iteraciones depende de la condición mencionada en el bloque while.<br>
+        Independientemente de la condición mencionada en el bloque do-while, habrá un mínimo de 1 iteración.<br>
+
+        En los while,La condición de control de bloque está disponible en el punto de inicio del ciclo.<br>
+        Por el contrario, en el do - while, la condición de control de bloque está disponible en el punto final del ciclo.<br>
+
+
+    </p>
+
+
+
+   </dd>
+
+
+
+
+
+</div>
+
+</body>
+</html>
